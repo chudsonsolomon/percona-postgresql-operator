@@ -1,1 +1,15 @@
 #Percona postgresql operator
+---
+# ======================
+# Installer Controls
+# ======================
+fullnameOverride: ""
+
+# rbac: settings for deployer RBAC creation
+rbac:
+    # rbac.create: if false RBAC resources should be in place
+    create: true
+    # rbac.useClusterAdmin: creates a ClusterRoleBinding giving cluster-admin to serviceAccount.name
+    useClusterAdmin: true
+
+    
