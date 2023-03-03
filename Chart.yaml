@@ -1,0 +1,11 @@
+apiVersion: v2
+name: postgresql
+description: Install percona postgresql operator
+type: application
+version: 1.0.0
+dependencies:
+
+  - name: pg-operator
+    version: "1.3.1"
+    repository: https://percona.github.io/percona-helm-charts/
+
